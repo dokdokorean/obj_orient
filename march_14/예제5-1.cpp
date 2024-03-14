@@ -7,4 +7,12 @@ int main(){
 
     int i;
     for(i=0;i<10;i++)n[i]=i*2;
+    for(i=0;i<10;i++)cout<<n[i]<<' ';
+    cout<<"\n";
+
+    double sum=0;
+    for(i=0;i<4;i++){
+         sum+=d[i];
+    }
+    cout << "배열 d 의 합은 " << sum;
 }
