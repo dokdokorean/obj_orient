@@ -9,8 +9,8 @@ public:
     Rectangle(int w, int h);
     Rectangle(int s);
     bool issquare();
-}; 
- Rectangle::Rectangle():Rectangle(1,1)
+};
+Rectangle::Rectangle() : Rectangle(1, 1) // <- 위임연산자 쓰려면 C++11? -std=c++11 이거 붙여서 써야되는데 이거 왜 이럼?
 {
 }
  Rectangle:: Rectangle(int w,int h)

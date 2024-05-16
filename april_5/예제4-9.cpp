@@ -10,7 +10,7 @@ public:
     Circle(int r);
     ~Circle();
     void setRadius(int r) { radius = r; }
-    double getArea() { return 3.14 * radius * radius; } //<- 왜 지랄임? = 두번 정의해서 ㅋㅋ
+    double getArea() { return 3.14 * radius * radius; } //<- 왜 지랄임? = 두번 정의해서.. 바보야ㅋㅋ
 };
 // 생성자 생성하기
 Circle::Circle()

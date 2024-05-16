@@ -1,6 +1,6 @@
 #include <iostream> 
 using namespace std;
-// -> 뭐야 씨발 이건 ㅋㅋㅋㅋ 집가서 수정해라 돌아가게
+// -> 뭐야 이건 ㅋㅋㅋㅋ 집가서 수정해라 돌아가게
 int main(){
     const int numRows=10;
     const int numCols=10;
